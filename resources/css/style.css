@@ -22,7 +22,7 @@
 .logo img {
   height: 50px;
   display: block;
-  margin-left: 10px;
+  padding-left: 10px;
 }
 
 .navigation {
@@ -42,20 +42,21 @@ padding: 20px 10px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   text-align: center;
   background-position: center;
+
 }
 
 #title {
   align-items: center;
-}
 
-#title h1, h2 {
-background-color: black;
-display: block;
 }
 
 .title.text {
   align-items: center;
   padding: 10px 10px;
+  background-color: black;
+  display: block;
+  width: 1200px;
+
 }
 .images.container {
 width: 1200px;
@@ -76,6 +77,7 @@ justify-content: center;
   padding: 5px;
   text-align: center;
 }
+
 .image.one .image.two .image.three .image.four, .image.five {
   justify-content: space-around;
 }
@@ -84,4 +86,32 @@ justify-content: center;
   height: 500px;
   width: 1000px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+margin-top: 70px;
+}
+
+.locations.container, h1 {
+  text-align: center;
+  display: block;
+  padding: 10px 10px
+}
+
+.column.two.container, .column.one.container, .column.three.container {
+  width: 300px;
+  display: flex;
+  display: inline-block;
+  background-color: black;
+  opacity: 1;
+  margin: 15px 10px;
+
+}
+.footer.container {
+  display: flex;
+  flex-direction: column;
+  display: block;
+}
+#copyright {
+text-align: left;
+align-items: left;
+display: block;
+margin-top: 30px;
 }
